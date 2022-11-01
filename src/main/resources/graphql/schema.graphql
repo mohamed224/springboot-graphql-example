@@ -1,0 +1,11 @@
+type Query {
+    getBooks(): [Book]
+    getBookById(id: ID!) : Book
+    getBooksByAuthorName(authorName: String!): [Book]
+    getAuthors(): [Author]
+    getAuthorByName(name: String!): Author
+}
+
+type Mutation {
+
+}
