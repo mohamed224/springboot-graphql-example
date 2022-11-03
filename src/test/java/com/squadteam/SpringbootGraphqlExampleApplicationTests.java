@@ -1,4 +1,4 @@
-package com.squadteam.graphql;
+package com.squadteam;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
