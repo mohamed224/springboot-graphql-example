@@ -17,7 +17,7 @@ public class AuthorRepository {
         return authors.stream()
                 .filter(author -> Objects.equals(author.getId(), id))
                 .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException(String.format("Author with id: %s does not exist",id)));
+                .orElseThrow(() -> new RuntimeException(String.format("Author with id: %s does not exist",id)));
     }
 
 
